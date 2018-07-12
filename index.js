@@ -13,7 +13,7 @@ function printBadges(names){
 function tailsNeverFails(){
   let tails = 0
   let number = Math.random()
-  while (number <= 0.5){
+  while (number >= 0.5){
     ++tails
     number = Math.random()
   }
