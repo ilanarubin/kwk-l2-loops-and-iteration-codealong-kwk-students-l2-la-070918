@@ -9,10 +9,10 @@ function printBadges(names){
 }
 // printBadges(namesArray)
 
-// var tails = 0
+// let tails = 0
 function tailsNeverFails(){
   let tails = 0
-  var number = Math.random()
+  let number = Math.random()
   while (number <= 0.5){
     ++tails
     number = Math.random()
